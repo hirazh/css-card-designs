@@ -3,7 +3,32 @@
     padding: 0;
     border: 0;
 }
-
+/*Page layout styles*/
 header {
     text-align: center;
+    font-family: 'Niramit', sans-serif;
+}
+
+.main-title {
+    font-size: 3rem;
+    padding-top: 2%;
+}
+
+.subheading {
+    font-size: 1.2rem;
+}
+
+.main-container {
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+.cards {
+    width: 350px;
+    height: 400px;
+    justify-self: center;
+    margin-bottom: 20%;
 }

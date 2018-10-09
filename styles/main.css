@@ -3,6 +3,10 @@
     padding: 0;
     border: 0;
 }
+
+body {
+    background-color: #FAFAFA;
+}
 /*Page layout styles*/
 header {
     text-align: center;
@@ -28,7 +32,83 @@ header {
 
 .cards {
     width: 350px;
-    height: 400px;
+    /*height: 500px;*/
     justify-self: center;
     margin-bottom: 20%;
+    /*background-color: aqua;*/
 }
+
+/*Card 01*/
+/*Subscription Card*/
+.subscription {
+    width: 275px;
+    background-color: #fff;
+    font-family: sans-serif;
+}
+
+.price {
+    background-color: #009688;
+    padding: 10%;
+}
+
+.subscription-badge {
+    width: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.subscription-badge p {
+    font-size: .6rem;
+    padding: 2px;
+    text-align: center;
+    font-weight: 600;
+    color: #212121;
+}
+
+.price-tag {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.price-tag p {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.price-tag small {
+    font-size: 1rem;
+    opacity: .8;
+}
+
+.features {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.features p {
+    margin-bottom: 5%;
+    color: #9E9E9E;
+}
+
+.features li {
+    list-style: none;
+    line-height: 220%;
+    font-size: 1rem;
+    color: #212121;
+}
+
+.get-started {
+    margin-bottom: 10%;
+}
+
+.get-started-btn {
+    background-color: #009688;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 2%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+}
+/*-------------------------------*/

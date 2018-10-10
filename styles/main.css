@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #FAFAFA;
+    background-color: #CFD8DC;
 }
 /*Page layout styles*/
 header {
@@ -26,7 +26,7 @@ header {
     margin: 5%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-template-rows: auto;
+    
     grid-gap: 10px;
 }
 
@@ -42,6 +42,7 @@ header {
 /*Subscription Card*/
 .subscription {
     width: 275px;
+    height: 450px;
     background-color: #fff;
     font-family: sans-serif;
 }
@@ -111,4 +112,69 @@ header {
     margin-right: 10%;
     border-radius: 5px;
 }
+/*-------------------------------*/
+
+
+/*Card 02*/
+/*Blog post card*/
+
+.blog-post {
+    background-color: #fff;
+    color: #212121;
+    font-family: sans-serif;
+}
+
+.blog-contents-wrapper {
+    margin: 5%;
+}
+
+.post-image img {
+    width: 100%;
+}
+
+.blog-title {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.first-paragaraph {
+    margin: 5% 5% 10% 5%;
+}
+
+.first-paragaraph p {
+    font-size: .9rem;
+    text-align: justify;
+    line-height: 150%;
+}
+
+.blog-card-footer {
+    display: flex;
+}
+
+.avatar-image {
+    margin-left: 8%;
+}
+
+.avatar-image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.avatar-name {
+    margin-left: 8%;
+    margin-top: 3%;
+}
+
+.avatar-name p {
+    font-size: .8rem;
+    padding-top: 5%;
+    color: #616161; 
+}
+
+.avatar-name p:nth-child(2) {
+    font-style: italic;
+}
+
 /*-------------------------------*/

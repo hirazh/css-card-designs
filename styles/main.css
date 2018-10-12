@@ -178,3 +178,52 @@ header {
 }
 
 /*-------------------------------*/
+
+
+/*Card 03*/
+/*Movie Widget*/
+
+.movie-widget {
+    width: 270px;
+    height: 400px;
+    background-image: url('https://res.cloudinary.com/dvvjoqwaa/image/upload/c_scale,q_60,w_275/v1539278196/css-cards/star-wars.jpg');
+    border-radius: 20px;
+}
+
+.movie-content-wraper {
+    background-color: #212121;
+    color: #fff;
+    opacity: .8;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.movie-content {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: sans-serif;
+}
+
+.movie-content h3 {
+    padding: 5%;
+    font-size: 1.3rem;
+}
+
+.movie-content small {
+    font-size: .9rem;
+}
+
+.movie-content p {
+    margin-top: 5%;
+    font-size: .9rem;
+}
+
+.movie-intro {
+    font-size: .8rem;
+    margin-left: 8%;
+    margin-right: 8%;
+}

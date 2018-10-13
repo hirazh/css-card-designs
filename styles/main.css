@@ -37,6 +37,7 @@ header {
     margin-bottom: 20%;
     /*background-color: aqua;*/
 }
+/*----------------------------------------------------*/
 
 /*Card 01*/
 /*Subscription Card*/
@@ -112,7 +113,7 @@ header {
     margin-right: 10%;
     border-radius: 5px;
 }
-/*-------------------------------*/
+/*----------------------------------------------------*/
 
 
 /*Card 02*/
@@ -122,6 +123,7 @@ header {
     background-color: #fff;
     color: #212121;
     font-family: sans-serif;
+    width: 300px;
 }
 
 .blog-contents-wrapper {
@@ -133,7 +135,7 @@ header {
 }
 
 .blog-title {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     text-align: center;
     margin-top: 5%;
 }
@@ -157,8 +159,8 @@ header {
 }
 
 .avatar-image img {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
@@ -168,8 +170,7 @@ header {
 }
 
 .avatar-name p {
-    font-size: .8rem;
-    padding-top: 5%;
+    font-size: .7rem;
     color: #616161; 
 }
 
@@ -177,7 +178,7 @@ header {
     font-style: italic;
 }
 
-/*-------------------------------*/
+/*----------------------------------------------------*/
 
 
 /*Card 03*/
@@ -188,17 +189,31 @@ header {
     height: 400px;
     background-image: url('https://res.cloudinary.com/dvvjoqwaa/image/upload/c_scale,q_60,w_275/v1539278196/css-cards/star-wars.jpg');
     border-radius: 20px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .movie-content-wraper {
-    background-color: #212121;
+    background-color: #000;
     color: #fff;
     opacity: .8;
     border-radius: 20px;
     height: 100%;
     display: flex;
     align-items: center;
-    
+    transition: all .5s ease-out;
+}
+
+.slide-in {
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+.movie-widget:hover .slide-in {
+    position: absolute;
+    transform: translateY(0);
 }
 
 .movie-content {
@@ -217,13 +232,16 @@ header {
     font-size: .9rem;
 }
 
-.movie-content p {
-    margin-top: 5%;
-    font-size: .9rem;
-}
-
 .movie-intro {
     font-size: .8rem;
     margin-left: 8%;
     margin-right: 8%;
 }
+
+.movie-content-info p {
+    margin-top: 5%;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+/*----------------------------------------------------*/

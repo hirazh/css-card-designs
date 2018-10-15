@@ -253,6 +253,7 @@ header {
 .news-article {
     background-color: #fff;
     width: 300px;
+    height: 450px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
 }
@@ -281,7 +282,7 @@ header {
     padding: 2%;
 }
 
-.news-content h3, h4 {
+.news-content h3, .news-content h4 {
     text-align: center;
     color: #C2185B;
 }
@@ -313,4 +314,66 @@ header {
     transition: all .6s ease-in;
 }
 
+/*----------------------------------------------------*/
+
+
+
+/*Card 05*/
+/*Profile card*/
+.profile-card {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    font-family: sans-serif;
+    box-shadow: 4px 2px 8px #9E9E9E;
+}
+
+.profile-cover img {
+    width: 300px;
+    height: 150px;
+}
+
+.profile-image {
+    display: flex;
+    justify-content: center;
+    margin-top: -15%;
+}
+
+.profile-image img {
+    width: 75px;
+    height: 78px;
+    border-radius: 50%;
+    border: #fff 3px solid;
+}
+
+.profile-content {
+    color: #212121;
+    text-align: center;
+}
+
+.profile-content h3 {
+    padding-top: 5%;
+    font-size: 1.5rem;
+    color: #1976D2;
+}
+
+.profile-content h4 {
+    font-size: 1rem;
+    padding: 2%;
+    font-weight: 300;
+    color: #1976D2;
+}
+
+.profile-content p {
+    color: #212121;
+    margin: 5%;
+    font-size: .9rem;
+}
+
+.profile-social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    color: #1976D2;
+}
 /*----------------------------------------------------*/
